@@ -4,19 +4,22 @@
 Created on Mon Oct 25 22:30:56 2021
 
 @author: agathamurgoci
+
+This 
+
 """
 
 import re
-from src import count_words
+from src import count_words, take_file
 
 
 # if we want to test more examples, such files are in the folder texts
 # to load a ist of all the files in the folder
 
-name_file= "texts/text.txt"
-text_file = open(name_file, 'r')
-text_data = text_file.read()
-text_file.close()
+name_file = input("Give ne a filename:")
+
+text_data = take_file(name_file)
+
 
 expr = r'\w+'
 

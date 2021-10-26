@@ -22,4 +22,9 @@ def count_words(list_words):
             continue
     return dict_words
 
+def take_file(filename):
+    text_file = open(filename, 'r')
+    text_data = text_file.read()
+    text_file.close()
+    return text_data
 
