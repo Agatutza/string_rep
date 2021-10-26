@@ -27,4 +27,3 @@ def take_file(filename):
     text_data = text_file.read()
     text_file.close()
     return text_data
-
