@@ -5,8 +5,9 @@ Created on Mon Oct 25 22:30:56 2021
 
 @author: agathamurgoci
 
-This 
+This example takes in a string containing the filename and prints the result of the word count
 
+youcan use, for example texts/text.txt
 """
 
 import re
