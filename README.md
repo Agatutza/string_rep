@@ -1,5 +1,5 @@
 # Introduction
-Repository containing small python scripts to load a file and count the number of unique words that are int hat file.
+Python scripts to load a file and count the number of occurences of unique words that are in that file.
 
 Dependencies: **re** package for splitting the original text into words. For no dependencies, it should be replaced by a parser.
 Main assumption: that the input into the functions we have is as expected.
